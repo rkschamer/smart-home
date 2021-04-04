@@ -1,0 +1,1 @@
+usb-storage.quirks=152d:0579:u console=tty1 root=PARTUUID=f7f504fc-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
