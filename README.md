@@ -9,7 +9,11 @@ Schema: `%prefix%/<location>/[<floor>|<room>]/hall/%topic%/`
 Topics:
 
 - `%prefix%/dresden`
+  - `livingroom`
+    - `light-switch-1`
   - `hall`
     - `light-switch`
   - `noah`
     - `bed-light-switch`
+  - `cellar`
+    - `temperature-humidity`
