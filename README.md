@@ -1,5 +1,11 @@
 # smart-home
 
+## TODOS
+
+- [ ] HA: Why is container not in `iotstack_nw`?
+- [ ] HA: Exclude unrelated entities from sync to influx
+- [ ] HA: Rename entities for temp/hum sensors
+
 ## MQTT Topic Structure
 
 Since the use of multiple Tasmota-based devices, the [Tasmota MQTT topic structure](https://tasmota.github.io/docs/MQTT/) is applied:
