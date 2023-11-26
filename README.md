@@ -1,25 +1,15 @@
 # smart-home
 
-## TODOS
+## Devices
 
-- [ ] HA: Why is container not in `iotstack_nw`?
-- [ ] HA: Exclude unrelated entities from sync to influx
-- [ ] HA: Rename entities for temp/hum sensors
+- `plug_swtich_1`: Tuya/Tasmota (Noah)
+- `plug_swtich_2`: Tuya/Tasmota (Küchenfenster)
+- `plug_swtich_3`: Sonoff/Tasmota (Lichterkette draußen)
 
-## MQTT Topic Structure
+## Shelly H&T Plus
 
-Since the use of multiple Tasmota-based devices, the [Tasmota MQTT topic structure](https://tasmota.github.io/docs/MQTT/) is applied:
+- Webbhook: ws://192.168.123.10:8123/api/shelly/ws
 
-Schema: `%prefix%/<location>/[<floor>|<room>]/hall/%topic%/`
-
-Topics:
-
-- `%prefix%/dresden`
-  - `livingroom`
-    - `light-switch-1`
-  - `hall`
-    - `light-switch`
-  - `noah`
-    - `bed-light-switch`
-  - `cellar`
-    - `temperature-humidity`
+- MQTT:
+  - tele/malter/shelly-ht-1
+  - 192.168.123.10:1883
